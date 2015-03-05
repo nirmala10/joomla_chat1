@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>joomla_chat</name>
+    <author>vm</author>
+    <version>1.0.0</version>
+    <type>chat</type>
+    <description>A  footer chat module</description>
+    <files>
+        <filename>joomla_chat.xml</filename>
+    </files>
+    <config>
+         <fields name="params">
+         <fieldset name="basic">
+         <field name="chatkey" type="text"
+         default="enter chat key"
+         label="chatkey"
+         description="enter authorized chat key"
+         />
+    </fieldset>
+    </fields>
+    </config>
+</extension>
+
